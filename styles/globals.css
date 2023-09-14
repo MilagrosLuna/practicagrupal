@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+a {
+  color: #0070f3; /* Color del enlace */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  transition: color 0.2s ease-in-out; /* Transición de color suave al pasar el mouse */
+}
+
+/* Estilos para los enlaces cuando el mouse está encima */
+a:hover {
+  color: #0044aa; /* Cambiar el color al pasar el mouse */
+}
+
+/* Estilos para la lista de tareas */
+ul {
+  list-style: none; /* Elimina los puntos de lista */
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
